@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: slateblue;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 90px auto;
+}
+#lose-message {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: none;
+}
+
+.autoplay-toggle {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, 0);
+}
+
+p {
+  text-align: center;
+}
